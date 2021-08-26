@@ -38,6 +38,8 @@ class ViewController: UIViewController {
        
     func setupPDF() {
         
+        
+        //Local Pdf file import your projects
         let path = Bundle.main.path(forResource: "sample", ofType: "pdf")!
         
         let pdfURL = NSURL(fileURLWithPath: path)
@@ -64,7 +66,7 @@ class ViewController: UIViewController {
      
     }
           @objc func shareAction(sender: UIButton) {
-            
+            // Pdf file data send to activity controller in swift
              let vc = UIActivityViewController(activityItems: [pdfData], applicationActivities: [])
            present(vc, animated: true, completion: nil)
              
