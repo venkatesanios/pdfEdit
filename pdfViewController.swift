@@ -1,13 +1,11 @@
 //
 //  pdfViewController.swift
-//  Niagara
-//
+ //
 //  Created by VenkatesanMacbookPro on 19/11/19.
 //  Copyright © 2019 Venkatesan. All rights reserved.
 //
 
 import UIKit
-import SVGKit
 import PDFKit
 
 class pdfViewController: UIViewController,PDFViewDelegate {
